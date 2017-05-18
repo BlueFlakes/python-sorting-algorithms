@@ -1,4 +1,3 @@
-
 def import_data(file):
     pass
 
@@ -7,11 +6,11 @@ def export_sorted_data(sort_type, amount):
     pass
 
 
-def bubble_sort(amount):
+def bubble_sort(numbers):
     pass
 
 
-def insertion_sort(amount):
+def insertion_sort(numbers):
     pass
 
 
