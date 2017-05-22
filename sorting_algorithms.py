@@ -1,35 +1,94 @@
-def read_data(amount):
-    pass
+def read_data(amount_data):
+    """
+    Parameters
+    ----------
+    amount_data : int
 
-
-def save_data(numbers):
-    pass
-
-
-def bubble_sort(numbers):
-    pass
-
-
-def insertion_sort(numbers):
-    pass
-
-
-def sort_data(sort_type='bubble', amount):
-    pass
-
-
-def get_computing_time(computing_type, amount):
-    """ Params:
-        computing type: 'import data'
-                        'export data'
-                        'bubble sort'
-                        'insertion sort'
-
-        Returns:
-        computing time in ms
+    Returns
+    -------
+    None
     """
     pass
 
 
-def print_sort_summary():
+def save_data(numbers):
+    """
+    Parameters
+    ----------
+    numbers : list of int
+
+    Returns
+    -------
+    None
+
+    """
+    pass
+
+
+def bubble_sort(numbers):
+    """
+    Parameters
+    ----------
+    numbers : list of int
+
+    Returns
+    -------
+    list of int
+
+    """
+    pass
+
+
+def insertion_sort(numbers):
+    """
+    Parameters
+    ----------
+    numbers : list of int
+
+    Returns
+    -------
+    list of int
+    """
+    pass
+
+
+def sort_data(sort_type='bubble', amount_data):
+    """
+    Parameters
+    ----------
+    sort_type : string, optional
+    amount_data : int
+
+    Returns
+    -------
+    list of int
+    """
+    pass
+
+
+def get_computing_time(computing_type='import data', amount_data):
+    """
+    Parameters
+    ----------
+    computing_type : string, optional
+    amount_data : int
+
+    Returns
+    -------
+    int
+    """
+    pass
+
+
+def print_computing_summary(computing_data):
+    """
+    Parameters
+    ----------
+    computing_data : dict : { key : tuple of string, value : int }
+
+    Returns
+    -------
+    None
+    """
+
     pass
