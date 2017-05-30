@@ -6,7 +6,7 @@ def read_data(amount_data):
 
     Returns
     -------
-    None
+    list of int
     """
     pass
 
