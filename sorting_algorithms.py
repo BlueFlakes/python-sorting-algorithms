@@ -84,7 +84,7 @@ def print_computing_summary(computing_data):
     """
     Parameters
     ----------
-    computing_data : dict : { key : tuple of string, value : int }
+    computing_data : dict : { key : tuple: (string, int), value : int }
 
     Returns
     -------
