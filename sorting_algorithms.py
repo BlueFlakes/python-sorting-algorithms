@@ -115,7 +115,7 @@ def check_for_direction():
 
 
 def save_data(numbers):
-    """Saving data
+    """Saving data to file
     Parameters
     ----------
     numbers : list of int
@@ -134,7 +134,7 @@ def save_data(numbers):
         data_writer = csv.writer(csvfile)
 
         for number in list_of_numbers:
-            data_writer.writerow(number)
+            data_writer.writerow([number])
 
 
 def bubble_sort(numbers):
